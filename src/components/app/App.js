@@ -19,13 +19,8 @@ const users = [
   }
 ]
 
-function App() {
-  return (
-    <div>
-      {/* <CardA/>
-      <CardB/> */}
-    </div>
-  );
+const App = () => {
+  return <h2>Hello function component.</h2>
 }
 
-export default App;
+export default App
